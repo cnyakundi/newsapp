@@ -16,6 +16,17 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="JupyterTrust" id="5eacf116-66ee-4fb6-ae04-6f61865a6e59" />
   <component name="ProjectId" id="1j4yVUU4yDBcHJthljfKobSjbCp" />
   <component name="ProjectViewState">
@@ -37,7 +48,10 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newsproject/app/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="newsproject" type="Python.FlaskServer">
       <module name="newsproject" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -53,6 +67,11 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -73,5 +92,55 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".gitignore" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="812" height="304" key="GridCell.Tab.0.bottom" timestamp="1603094797821">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="812" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603094797821" />
+    <state width="812" height="304" key="GridCell.Tab.0.center" timestamp="1603094797820">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="812" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603094797820" />
+    <state width="812" height="304" key="GridCell.Tab.0.left" timestamp="1603094797819">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="812" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603094797819" />
+    <state width="812" height="304" key="GridCell.Tab.0.right" timestamp="1603094797820">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="812" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603094797820" />
+    <state width="812" height="304" key="GridCell.Tab.1.bottom" timestamp="1603094797822">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="812" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603094797822" />
+    <state width="812" height="304" key="GridCell.Tab.1.center" timestamp="1603094797821">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="812" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1603094797821" />
+    <state width="812" height="304" key="GridCell.Tab.1.left" timestamp="1603094797821">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="812" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1603094797821" />
+    <state width="812" height="304" key="GridCell.Tab.1.right" timestamp="1603094797822">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="812" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1603094797822" />
+    <state width="812" height="304" key="GridCell.Tab.2.bottom" timestamp="1603094797828">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="812" height="304" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603094797828" />
+    <state width="812" height="304" key="GridCell.Tab.2.center" timestamp="1603094797824">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="812" height="304" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1603094797824" />
+    <state width="812" height="304" key="GridCell.Tab.2.left" timestamp="1603094797823">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="812" height="304" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1603094797823" />
+    <state width="812" height="304" key="GridCell.Tab.2.right" timestamp="1603094797824">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="812" height="304" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1603094797824" />
   </component>
 </project>

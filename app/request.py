@@ -53,3 +53,6 @@ def process_results(news_list):
             news_results.append(news_object)
 
     return news_results
+
+
+
