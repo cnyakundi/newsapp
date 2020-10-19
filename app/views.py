@@ -7,4 +7,4 @@ from app.request import get_news
 def index():
     news_results = get_news('popular')
     print(news_results)
-    return render_template('index.html', popular=news_results)
+    return render_template('index.html', popular=news_results, top_headlines=news_results)
