@@ -23,6 +23,17 @@ class NewsTest(unittest.TestCase):
     def test_instance(self):
         self.assertTrue(isinstance(self.news_article, News))
 
+    def test_init(self, source, author, title, description, urlToImage, publishedAt):
+        self.source = source
+        self.author = author
+        self.title = title
+        self.description = description
+        self.urlToImage = 'https://o.aolcdn.com/images/dims?resize=1200%2C630&crop=1200%2C630%2C0%2C0&quality=95' \
+                          '&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-10%2F9bb85400' \
+                          '-0f24-11eb-9ff6-15f915240ed1&client=amp-blogside-v2&signature' \
+                          '=02fcea5ae3e514da343523b7d7523f6d8f48a028'+ urlToImage
+        self.publishedAt = publishedAt
+
 
 if __name__ == ' __main__':
     unittest.main()
