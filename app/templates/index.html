@@ -5,6 +5,8 @@
     <title>Title</title>
 </head>
 <body>
-<h1> Test home page </h1>
+{% for news_results in popular %}
+<li>{{news_results.title}}</li>
+{% endfor %}
 </body>
 </html>

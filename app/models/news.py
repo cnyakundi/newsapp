@@ -9,5 +9,5 @@ class News:
         self.author = author
         self.title = title
         self.description = description
-        self.utrToImage = urlToImage
+        self.urlToImage = urlToImage
         self.publishedAt = publishedAt
