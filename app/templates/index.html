@@ -12,11 +12,12 @@
     <div class="container">
     <div class="row>">
             {% for news_results in popular %}
-            <h1 color:red; > {{ news_results.title }}</h1>
+            <h1 > {{ news_results.title }}</h1>
                 <h5>Published by </h5>
                 <h5 text-color : blue; >{{ news_results.author }}</h5>
             <img class="img-thumbnail"  src="{{news_results.urlToImage}}" class="card-img-top" alt="">
             <h6>{{ news_results.publishedAt }}</h6>
+                <a href="{{news_results.source}} " class="card-link">
             {% endfor %}
     </div>
 
